@@ -10,5 +10,5 @@ def test_hello():
 
 def test_numpy():
     x = [1, 3, 5]
-    output = np.max(x)
+    output = int(np.max(x))
     assert output == 3
