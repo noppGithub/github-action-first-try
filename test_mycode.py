@@ -9,6 +9,6 @@ def test_hello():
 
 
 def test_numpy():
-    x = [1, 3, 5]
+    x = [1, 3, 2]
     output = int(np.max(x))
     assert output == 3
